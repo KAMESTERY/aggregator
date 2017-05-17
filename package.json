@@ -1,0 +1,13 @@
+{
+    "name": "aggregator",
+    "version": "1.0.0",
+    "description": "Aggregate Public Data",
+    "main": "index.js",
+    "repository": "https://github.com/KAMESTERY/aggregator.git",
+    "author": "outcastgeek <outcastgeek+git@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js"
+    }
+}
+
