@@ -2,12 +2,19 @@
     "name": "aggregator",
     "version": "1.0.0",
     "description": "Aggregate Public Data",
-    "main": "index.js",
+    "main": "bin/aggregator.js",
     "repository": "https://github.com/KAMESTERY/aggregator.git",
     "author": "outcastgeek <outcastgeek+git@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "node index.js"
+        "start": "node bin/aggregator.js",
+        "dev": "lumo -c src src/aggregator/core.cljs",
+        "build": "lumo -c src build.cljs"
+    },
+    "dependencies": {
+        "crawler": "^1.0.5"
+    },
+    "devDependencies": {
+        "lumo-cljs": "^1.5.0"
     }
 }
-
