@@ -9,7 +9,8 @@
     "scripts": {
         "start": "node bin/aggregator.js",
         "dev": "lumo -c src src/aggregator/core.cljs",
-        "build": "lumo -c src build.cljs"
+        "build": "lumo -c src build.cljs",
+        "watch": "java -cp cljs.jar:src clojure.main build.clj"
     },
     "dependencies": {
         "crawler": "^1.0.5"

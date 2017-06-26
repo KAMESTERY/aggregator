@@ -6,6 +6,9 @@ PATH := $(CURDIR)/node_modules/.bin:$(PATH)
 all: deps
 	yarn build
 
+watch: deps
+	yarn watch
+
 dev: deps
 	yarn dev
 
